@@ -263,13 +263,6 @@ cc_library {
 }
 
 cc_library {
-    name: "libgui_shim_vendor",
-    defaults: ["libgui_shim_defaults"],
-    shared_libs: ["libgui_vendor"],
-    vendor: true,
-}
-
-cc_library {
     name: "libmemset_shim",
     target: {
         android_arm: {
